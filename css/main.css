@@ -40,9 +40,10 @@ main {
     align-items: center;
     justify-content: center;
     background: var(--clr-very-dark-blue-card);
-    width: 20%;
+    max-width: 20%;
     border-radius: 15px;
     padding: 1.5em;
+    box-shadow: 5px 5px 5px 5px var(--clr-very-dark-blue-main);
 }
 
 .image-section {
@@ -159,9 +160,13 @@ hr {
 }
 
 .credit-section img {
-    width: 10%;
+    width: 15%;
     border: 1px solid var(--clr-white);
     border-radius: 50%;
+}
+
+.credit-section img:hover {
+    border: 1px solid var(--clr-cyan);
 }
 
 .credit-section p {
@@ -179,50 +184,44 @@ hr {
 }
 
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 376px){
     main {
-        width: 80%;
+        max-width: 80%;
     }
 }
 
 @media only screen and (min-width: 375px) and (max-width: 600px){
     main {
-        width: 80%;
+        max-width: 80%;
     }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px){
     main {
-        width: 60%;
+        max-width: 60%;
     }
 }
 
 @media only screen and (min-width: 800px) and (max-width: 950px){
     main {
-        width: 45%;
+        max-width: 45%;
     }
 }
 
 @media only screen and (min-width: 950px) and (max-width: 1200px){
     main {
-        width: 35%;
+        max-width: 35%;
     }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1415px){
     main {
-        width: 25%;
+        max-width: 25%;
     }
 }
 
 @media only screen and (min-width: 1415px) {
     main {
-        width: 25%;
-    }
-}
-
-@media only screen and (min-width: 1415px) {
-    main {
-        width: 20%;
+        max-width: 25%;
     }
 }
