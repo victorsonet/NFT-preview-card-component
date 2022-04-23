@@ -166,6 +166,7 @@ hr {
 }
 
 .credit-section img:hover {
+    cursor: pointer;
     border: 1px solid var(--clr-cyan);
 }
 
