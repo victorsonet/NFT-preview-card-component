@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/victorsonet/victorsonet.github.io)
-- Live Site URL: [Add live site URL here](victorsonet.github.io)
+- Live Site URL: [Add live site URL here](https://victorsonet.github.io/)
 
 ## My process
 
