@@ -30,6 +30,10 @@ p {
     font-size: var(--fs-p);
 }
 
+h2 {
+    display: none;
+}
+
 main {
     display: flex;
     flex-direction: column;
